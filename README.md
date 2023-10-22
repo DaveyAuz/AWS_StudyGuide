@@ -3,7 +3,7 @@
 
 Hello there! I'm **Davey Auz Oswald** and this is my comprehensive AWS study guide. This guide covers a wide range of AWS services, offering in-depth explanations and insights to help you understand and make the most of what AWS has to offer.
 
-## Table of Contents (I will sort these to seperate files ASAP)
+## Table of Contents (I will sort these to seperate files ASAP, right now its just sperated by Numbers in one MD file)
 
 1. [Machine Learning](./MachineLearning.md)
 2. [Storage](./Storage.md)
@@ -34,8 +34,7 @@ This study guide is open-source and is licensed under the MIT License.
 
 ## Acknowledgments
 
-- A big thank you to [OpenAI](https://www.openai.com/) for helping with the content.
-- All the wonderful contributors and supporters.
+- A big thank you to [OpenAI](https://www.openai.com/) for helping with the content as well as Stack Overflow.
 
 Happy Studying!
 

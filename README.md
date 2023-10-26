@@ -3,7 +3,7 @@
 
 Hello there! I'm **Davey Auz Oswald** and this is my comprehensive AWS study guide. This guide covers a wide range of AWS services, offering in-depth explanations and insights to help you understand and make the most of what AWS has to offer.
 
-## Table of Contents (I will sort these to seperate files ASAP, right now its just sperated by Numbers in one MD file)
+## Table of Contents
 
 1. [Compute](./1Compute.md)
 2. [Storage](./2Storage.md)

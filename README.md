@@ -33,12 +33,14 @@ This guide is a result of my rigorous study and research. If you find any errors
 
 ## License
 
-This study guide is open-source and is licensed under the MIT License. 
+This study guide is open-source and is licensed under the MIT License.
 
 ## Acknowledgments
 
 - A big thank you to [AWS Exam Prep](https://d1.awsstatic.com/training-and-certification/docs-ml/AWS-Certified-Machine-Learning-Specialty_Exam-Guide.pdf) for helping with the content, [Linked in Learning AWS Certified Solutions Architect - Associate (SAA-C03) Certification](https://www.linkedin.com/learning/paths/prepare-for-the-aws-certified-solutions-architect-associate-saa-c03-certification) as well as Stack Overflow.
 
 Happy Studying!
+
+--Davey Auz
 
 [HOME](./README.md)

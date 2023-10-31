@@ -201,19 +201,57 @@ Amazon Web Services (AWS) offers a diverse portfolio of storage solutions tailor
 - Home directories for enterprise applications.
 - Backup and archival solutions.
 
-## FSx
+## Amazon FSx
 
-**Amazon FSx** offers fully managed third-party file systems. There are two main products:
+**Amazon FSx** provides fully managed third-party file systems optimized for a variety of specific use-cases and integrated with other AWS services. These file systems can easily be used with both AWS Cloud resources and on-premises environments.
 
-- **Amazon FSx for Windows File Server**: Designed for Windows-based applications, this service features:
-  - Native compatibility with SMB, AD, and DFS.
-  - Data deduplication to save storage costs.
-  - Concurrent access from thousands of compute instances.
+### Amazon FSx for Windows File Server
 
-- **Amazon FSx for Lustre**: Ideal for compute-intensive tasks, it offers:
-  - Seamless integration with S3.
-  - POSIX-compliant file system.
-  - Rapid I/O operations with SSD-based storage.
+Designed for Windows-based applications requiring shared file storage, it's built on Windows Server and offers native support for Windows file system features.
+
+- **Compatibility**:
+  - Supports industry-standard SMB (Server Message Block) protocol, suitable for Windows-based applications.
+  - Integrates with Active Directory (AD) allowing users to access the file systems using their domain credentials.
+  - Features DFS (Distributed File System) namespaces, a role service in Windows Server that enables grouping shared folders on different servers.
+
+- **Durability & Availability**:
+  - Data is automatically backed up daily and is stored durably across multiple Availability Zones.
+  - Supports Microsoft Volume Shadow Copy Service (VSS) enabling users to restore previous versions of files.
+
+- **Performance & Storage**:
+  - Supports SSD and HDD storage for fast access times and lower-cost options.
+  - Uses data deduplication to identify and remove duplicated data blocks, optimizing storage usage and cost.
+  - Allows concurrent access from thousands of compute instances without performance degradation.
+
+### Amazon FSx for Lustre
+
+Optimized for high-performance and compute-intensive tasks, Lustre is an open-source, parallel file system designed for applications like machine learning, high performance computing (HPC), and video processing.
+
+- **Compatibility**:
+  - Provides a POSIX-compliant file system, making it suitable for Linux-based applications.
+  - Seamlessly integrates with Amazon S3, allowing users to associate a Lustre file system with an S3 bucket. This enables data to be ingested from or written back to S3 seamlessly.
+
+- **Performance**:
+  - Designed for rapid I/O operations with SSD-based storage ensuring low-latency data access.
+  - Can scale to hundreds of GB/s of throughput and millions of IOPS.
+
+- **Durability & Data Processing**:
+  - Data is stored across multiple Availability Zones for high durability.
+  - Supports high-speed data processing tasks by allowing users to process data directly on FSx for Lustre, and then save processed results back into S3.
+
+### Use Cases
+
+- **FSx for Windows File Server**:
+  - Enterprise IT applications.
+  - Home directories for users.
+  - Content management and rich media workflows.
+
+- **FSx for Lustre**:
+  - High-performance computing (HPC) applications.
+  - Machine learning and deep learning workloads.
+  - Financial simulations and reservoir simulations.
+
+
 
 ## AWS Backup
 

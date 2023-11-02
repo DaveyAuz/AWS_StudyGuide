@@ -37,7 +37,7 @@ This study guide is open-source and is licensed under the MIT License.
 
 ## Acknowledgments
 
-- A big thank you to [AWS Exam Prep](https://d1.awsstatic.com/training-and-certification/docs-ml/AWS-Certified-Machine-Learning-Specialty_Exam-Guide.pdf) for helping with the content, [Linked in Learning AWS Certified Solutions Architect - Associate (SAA-C03) Certification](https://www.linkedin.com/learning/paths/prepare-for-the-aws-certified-solutions-architect-associate-saa-c03-certification) as well as Stack Overflow.
+- A big thank you to [AWS Documentation](https://docs.aws.amazon.com/) For 93.569% of the Knowledge, [AWS Exam Prep](https://d1.awsstatic.com/training-and-certification/docs-ml/AWS-Certified-Machine-Learning-Specialty_Exam-Guide.pdf) for helping with the content, [Linked in Learning AWS Certified Solutions Architect - Associate (SAA-C03) Certification](https://www.linkedin.com/learning/paths/prepare-for-the-aws-certified-solutions-architect-associate-saa-c03-certification) as well as Stack Overflow.
 
 Happy Studying!
 
